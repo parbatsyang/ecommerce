@@ -1,8 +1,8 @@
-
+import Login from "./signin";
 export default function HomePage() {
   return (
-    <div>
-      E-commerce store
-    </div>
+    <>
+     <Login/>
+    </>
   );
 }
