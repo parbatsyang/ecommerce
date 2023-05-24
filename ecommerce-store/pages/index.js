@@ -1,8 +1,10 @@
-import Login from "./signin";
-export default function HomePage() {
+import React from 'react'
+import Signin from './signin'
+
+function index() {
   return (
-    <>
-     <Login/>
-    </>
-  );
+    <Signin/>
+  )
 }
+
+export default index
